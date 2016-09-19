@@ -22,7 +22,8 @@ namespace Wk08_Exceptions
                 Console.WriteLine(ex.GetType().Name);
                 Console.WriteLine(ex.Message);
 
-               //throw new InvalidOperationException("Operation Failed", ex);
+                //throw new InvalidOperationException("Operation Failed", ex);
+                // http://stackoverflow.com/questions/881473/why-catch-and-rethrow-an-exception-in-c
             }
         }
     }

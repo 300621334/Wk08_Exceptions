@@ -58,7 +58,7 @@ class Book
         Title = title;
         Author = author;
         if (price > RATE * pages)
-            throw (new BookException(title, price, pages)); //no "catch" in tis class. excep is caught in the client-class.
+            throw (new BookException(title, price, pages)); //no "catch" in this class. excep is caught in the client-class, which must have try-catch block.
         Price = price;
         Pages = pages;
     }
